@@ -19,7 +19,7 @@ const Login = ({ firebase }) => {
           .then(() => navigate(pathname ? pathname : "/"))
           .catch(console.error);
       } else {
-        window.location.href = "https://upe-authenticator.herokuapp.com/";
+        window.location.href = "https://shib-nexus.herokuapp.com/";
       }
     }
   }, [firebase]);
